@@ -10,7 +10,7 @@ int main()
     cout<<"Enter the length of password: ";
     cin>>n;
     srand(time(0));
-    cout<<"Generated password: ";
+    cout<<"Your Generated password: ";
     for(int i = 0; i < n; i++)
         cout << alphanum[rand() % string_length];
     cout<<endl;
